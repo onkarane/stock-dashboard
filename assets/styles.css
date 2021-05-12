@@ -1,0 +1,100 @@
+/*Container Styles*/
+#container{
+    background: #141414;
+}
+/*End of Container Styles*/
+
+/*****Left Column Styles*****/
+#left-col{
+    background: #1b1b1b;
+}
+/*Heading*/
+#heading{
+    background: #222222;
+    height: 140px;
+}
+/*End of heading*/
+
+/*Single Select DropDown*/
+#comp-dropdown{
+    width: 180px;
+}
+
+#comp-dropdown .Select-value ,.Select-placeholder, .Select-value-label{
+    background: #252525;
+    color: #fff!important;
+}
+
+#comp-dropdown .VirtualizedSelectFocusedOption{
+    background-color: rgb(82, 82, 82)!important;
+}
+
+#comp-dropdown .Select-menu-outer{
+    background: #323232;
+    color: #fff!important;
+}
+/*End of Single Select DropDown*/
+
+/*Multi Select DropDown*/
+#earn-dropdown{
+    width: 180px;
+}
+
+#earn-dropdown .Select-value ,.Select-placeholder, .Select-control .has-value, .Select--multi
+.Select-value-label, .Select-multi-value-wrapper, .Select-arrow-zone{
+    background: #252525;
+    color: #fff!important;
+}
+
+#earn-dropdown .VirtualizedSelectFocusedOption{
+    background-color: rgb(82, 82, 82)!important;
+}
+
+#earn-dropdown .Select-menu-outer{
+    background: #323232;
+    color: #fff!important;
+}
+/*End of Multi Select DropDown*/
+/*Slider*/
+#slider{
+    width: 230px!important;
+}
+/*End of Slider*/
+
+/*****End of Left Column Styles*****/
+
+/*****Middle Column Styles*****/
+#balance-sheet{
+    height: 35vh;
+}
+
+#earnings{
+    height: 30vh!important;
+}
+#earnings-card{
+    width: 20.2rem!important;
+}
+
+#accounts{
+    height: 30vh;
+}
+#accounts-card{
+    width: 17rem!important;
+}
+
+#accounts-card{
+    width: 17rem!important;
+}
+
+#forecast{
+    height: 33.1vh;
+}
+
+#candle{
+    height: 73vh;
+}
+
+#pct-change{
+    height: 26vh;
+}
+/*****End of Middle Column Styles*****/

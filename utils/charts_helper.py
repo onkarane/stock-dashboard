@@ -20,11 +20,11 @@ class ChartHelper:
         """
         #form the connection to the database
         conn = db.connect(
-            database = "StockDB", 
-            user = "onkar", 
-            password = "onkar4996", 
-            host = "stockdb.cfb7ftjb28h8.us-west-1.rds.amazonaws.com", 
-            port = "5432")
+            database = "", 
+            user = "", 
+            password = "", 
+            host = "", 
+            port = "")
         
         return conn
     

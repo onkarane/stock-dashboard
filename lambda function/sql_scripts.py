@@ -25,8 +25,8 @@ class SQL:
         bucket = 'my-stocks'
         
         #keys
-        access = 'AKIAUUVNNLQM6OHYMFFL'
-        secret = '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'
+        access = ''
+        secret = ''
         #set the session
         session = boto3.Session(
             aws_access_key_id=access,

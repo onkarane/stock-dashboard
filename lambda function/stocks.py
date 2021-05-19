@@ -42,8 +42,8 @@ class Stocks:
             filename(string): filename.csv for the dataframe to be saved to s3
         """
         #keys
-        access = 'AKIAUUVNNLQM6OHYMFFL'
-        secret = '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'
+        access = ''
+        secret = ''
         #set the session
         session = boto3.Session(
             aws_access_key_id=access,
